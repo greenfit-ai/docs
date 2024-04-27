@@ -1,326 +1,90 @@
 ---
 layout: default
-title: Markdown kitchen sink
-nav_order: 99
+title: Prepare for the pipeline
+nav_order: 3
 ---
 
-<button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
-
-<script>
-const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
-
-jtd.addEvent(toggleDarkMode, 'click', function(){
-  if (jtd.getTheme() === 'dark') {
-    jtd.setTheme('light');
-    toggleDarkMode.textContent = 'Preview dark color scheme';
-  } else {
-    jtd.setTheme('dark');
-    toggleDarkMode.textContent = 'Return to the light side';
-  }
-});
-</script>
-
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page]({{site.baseurl}}/).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# [](#header-1)Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## [](#header-2)Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### [](#header-3)Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### [](#header-4-with-code-not-transformed)Header 4 `with code not transformed`
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### [](#header-5)Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### [](#header-6)Header 6
-
-[This is a very long link which wraps and therefore doesn't overflow
-even when it comes at the beginning](.) of the line.
-
-- [This is a very long link which wraps and therefore doesn't overflow the line
-  when used first in an item ](.) in a list.
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And an ordered list, continued:
-
-1.  Item one
-1.  Item two
-
-Some text
-
-{:style="counter-reset:none"}
-1.  Item three
-1.  Item four
-
-### And an ordered list starting from 42:
-
-{:style="counter-reset:step-counter 41"}
-1.  Item 42
-1.  Item 43
-1.  Item 44
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Nesting an ol in ul in an ol
-
-- level 1 item (ul)
-  1. level 2 item (ol)
-  1. level 2 item (ol)
-    - level 3 item (ul)
-    - level 3 item (ul)
-- level 1 item (ul)
-  1. level 2 item (ol)
-  1. level 2 item (ol)
-    - level 3 item (ul)
-    - level 3 item (ul)
-  1. level 4 item (ol)
-  1. level 4 item (ol)
-    - level 3 item (ul)
-    - level 3 item (ul)
-- level 1 item (ul)
-
-### And a task list
-
-- [ ] Hello, this is a TODO item
-- [ ] Hello, this is another TODO item
-- [x] Goodbye, this item is done
-
-### Nesting task lists
-
-- [ ] level 1 item (task)
-   - [ ] level 2 item (task)
-   - [ ] level 2 item (task)
-- [ ] level 1 item (task)
-- [ ] level 1 item (task)
-
-### Nesting a ul in a task list
-
-- [ ] level 1 item (task)
-   - level 2 item (ul)
-   - level 2 item (ul)
-- [ ] level 1 item (task)
-- [ ] level 1 item (task)
-
-### Nesting a task list in a ul
-
-- level 1 item (ul)
-   - [ ] level 2 item (task)
-   - [ ] level 2 item (task)
-- level 1 item (ul)
-- level 1 item (ul)
-
-### Small image
-
-![](../../assets/images/small-image.jpg)
-
-### Large image
-
-![](../../assets/images/large-image.jpg)
-
-"[Wroclaw University Library digitizing rare archival texts](https://www.flickr.com/photos/97810305@N08/9401451269)" by [j_cadmus](https://www.flickr.com/photos/97810305@N08) is marked with [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/?ref=openverse).
-
-### Labels
-
-I'm a label
-{: .label }
-
-blue
-{: .label .label-blue }
-green
-{: .label .label-green }
-purple
-{: .label .label-purple }
-yellow
-{: .label .label-yellow }
-red
-{: .label .label-red }
-
-**bold**
-{: .label }
-*italic*
-{: .label }
-***bold + italic***
-{: .label }
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-#### Multiple description terms and values
-
-Term
-: Brief description of Term
-
-Longer Term
-: Longer description of Term,
-  possibly more than one line
-
-Term
-: First description of Term,
-  possibly more than one line
-
-: Second description of Term,
-  possibly more than one line
-
-Term1
-Term2
-: Single description of Term1 and Term2,
-  possibly more than one line
-
-Term1
-Term2
-: First description of Term1 and Term2,
-  possibly more than one line
-
-: Second description of Term1 and Term2,
-  possibly more than one line
-
-### More code
-
-```python{% raw %}
-def dump_args(func):
-    "This decorator dumps out the arguments passed to a function before calling it"
-    argnames = func.func_code.co_varnames[:func.func_code.co_argcount]
-    fname = func.func_name
-    def echo_func(*args,**kwargs):
-        print fname, ":", ', '.join(
-            '%s=%r' % entry
-            for entry in zip(argnames,args) + kwargs.items())
-        return func(*args, **kwargs)
-    return echo_func
-
-@dump_args
-def f1(a,b,c):
-    print a + b + c
-
-f1(1, 2, 3)
-
-def precondition(precondition, use_conditions=DEFAULT_ON):
-    return conditions(precondition, None, use_conditions)
-
-def postcondition(postcondition, use_conditions=DEFAULT_ON):
-    return conditions(None, postcondition, use_conditions)
-
-class conditions(object):
-    __slots__ = ('__precondition', '__postcondition')
-
-    def __init__(self, pre, post, use_conditions=DEFAULT_ON):
-        if not use_conditions:
-            pre, post = None, None
-
-        self.__precondition  = pre
-        self.__postcondition = post
-{% endraw %}```
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-### Mermaid Diagrams
-
-The following code is displayed as a diagram only when a `mermaid` key supplied in `_config.yml`.
-
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
-
-### Collapsed Section
-
-The following uses the [`<details>`](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-collapsed-sections) tag to create a collapsed section.
-
-<details markdown="block">
-<summary>Shopping list (click me!)</summary>
-
-This is content inside a `<details>` dropdown.
-
-- [ ] Apples
-- [ ] Oranges
-- [ ] Milk
-
+# Prepare for the pipeline
+{:.no_toc }
+You must supply the raw basecalled reads as fastq files, either gzipped or not, with fastq or fq extension. This will then be followed by some simple steps that are described below.
+{:.fs-6.fw-300 }
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {:.text-delta }
+- TOC
+{:toc}
 </details>
+
+## Primers
+First, you need to provide a csv file containing primers and their features, specifically:
+
+* **ID**: The name of the primer/locus
+* **FWD**: The forward primer sequence (5'-3')
+* **REV**: The reverse primer sequence (5'-3')
+* **PLOIDY**: The expected ploidy for the locus (supported ploidies: 1 for haploid/monoploid, 2 for diploid)
+* **SIZE**: The expected size of the sequence associated with the locus
+
+You need to pass all the required data in this exact format, and the file will look like this:
+
+```csv
+ID,FWD,REV,PLOIDY,SIZE
+sl_an,CAAGCCCTCCTAGTGCTCAA,ATGATTTTCACAAGCATACCTCAA,2,780
+sl_hue,CAAGCCCTCCTAGTGCTCAA,AAGATTTCCACGAGCATACCTC,2,780
+sl_can,GGATGATGTCTCAAGCCCTTC,TTTTCACGAGCATACCTCAATG,2,780
+sl_6n_per,GATGCCTCAAGCCCTCCTA,AAGATTTCCACGAGCATACCTC,2,780
+```
+
+There is no need to explicitly trim adapters from your fastq files, as the demultiplexing steps take into account their presence. However, make sure not to provide adapters+primers if you have already removed adapters.
+
+## Samples
+The input data for the pipeline are fastq files, but to allow multiple fastq files input, you have to list them into a csv document. This document should not have a header and should have the first column representing the name of the sample and the second column reporting the path to the fastq file.
+
+In the end, your samples file will look like this:
+
+```csv
+ON_A29_2,/media/user/projects/reads/ON_A29_2.fq.gz
+ON_A30_28,/media/user/projects/reads/ON_A30_28.fq.gz
+ON_A4_2h,/media/user/projects/reads/ON_A4_2h.fq.gz
+ON_A5_29,/media/user/projects/reads/ON_A5_29.fq.gz
+ON_A5_3,/media/user/projects/reads/ON_A5_3.fq.gz
+```
+There is no need for the sample names to match the basenames of the fastq files.
+
+## Usage
+
+To run the pipeline, use the following command:
+```
+bash pipeline_main.sh -s <samples_csv> -p <primers_csv> -o <output_folder> [options]
+```
+**Required Arguments**
+
+* `-s` or `--samples`: Provide the path to a CSV file containing the names and paths of the raw fastq files for each sample.
+* `-p` or `--primers`: Provide the path to a CSV file containing the IDs, forward and reverse sequences, and ploidy (1 for haploid, 2 for diploid) of each primer.
+* `-o` or `--output`: Specify the path to the output folder.
+
+**Optional Arguments**
+
+* `-b` or `--blast`: Enable BLAST search for species identification (default: disabled).
+* `-e` or `--exclude`: Provide a text file with samples and loci to exclude from the analysis.
+* `-f` or `--force`: Force overwrite of the previous output folder (default: cowardly refusing to overwrite).
+* `-k` or `--kthreshold`: Define the threshold k for the maximum allowed mismatches for primer alignment during demultiplexing (default: 0.05).
+* `-m` or `--minreads`: Set the minimum number of reads required for consensus sequence reconstruction (default: 100).
+* `-n` or `--nreads`: Provide the absolute number or percentage of top-quality reads to consider for consensus sequence generation and variant calling (default: 500).
+* `-q` or `--quality`: Specify the minimum quality score for read filtering (default: 10).
+* `-r` or `--sizerange`: Define the allowed size buffer around the expected locus length (default: 100).
+* `-t` or `--threads`: Specify the number of threads to use for parallel processing (default: 10).
+
+## Best practices
+
+The following section provides some advice on how to set the parameters for the pipeline:
+
+* `-k` or `--kthreshold` should be set as quite strict (< 0.1) to ensure improved adherence of the demultiplexed sequences to the desired ones.
+* `-r` or `--sizerange` can be set liberally (> 200), but be cautious when defining it, as we want to avoid including very short PCR byproducts or very long chimeras.
+* `-n` or `--nreads`: 500 reads is generally a sweet spot for the underlying consensus-generating software. However, consider exploring other possibilities if this does not produce the desired output.
+* `-m` or `--minreads`: a minimum threshold of less than 100 reads can lead to a lack of output from the underlying consensus generation software.
+* `-b` or `--blast`: BLAST search takes a long time when implemented.
+
+If you are having a hard time with the pipeline's output, always try experimenting with the parameter settings. If the problems persist, check out [troubleshooting](./search.md) or [flag an issue on GitHub](https://github.com/nhmvienna/HAPLOTYPES/issues).
