@@ -6,7 +6,7 @@ nav_order: 7
 
 # Authors, References and Citation
 {:.no_toc }
-Here you will find all the useful metadata about people and dependencies linked to AMPLICON-PIPER
+Here you will find all the useful metadata about people and dependencies linked to AMPLIPIPER
 {:.fs-6.fw-300 }
 
 <details open markdown="block">
@@ -78,6 +78,6 @@ Other people?? Order??
 
 ## Citation
 
-When using AMPLICON-PIPER, please consider reporting the following citation: 
+When using AMPLIPIPER, please consider reporting the following citation: 
 
 **TBD**

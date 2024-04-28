@@ -2,14 +2,14 @@
 layout: default
 title: Home
 nav_order: 1
-description: "AMPLICON-PIPER is a comprehensive yet modular pipeline that is able to perform a wide variety of downstream tasks on raw, basecalled, Oxford Nanopore long reads."
+description: "AMPLIPIPER is a comprehensive yet modular pipeline that is able to perform a wide variety of downstream tasks on raw, basecalled, Oxford Nanopore long reads."
 permalink: /
 ---
 
-# AMPLICON-PIPER
+# AMPLIPIPER
 {: .fs-9 }
 
-AMPLICON-PIPER is a comprehensive yet modular pipeline that is able to perform a wide variety of downstream tasks on raw, basecalled, Oxford Nanopore long reads.
+AMPLIPIPER is a comprehensive yet modular pipeline that is able to perform a wide variety of downstream tasks on raw, basecalled, Oxford Nanopore long reads.
 {: .fs-6 .fw-300 }
 
 [Get started now](#quickstart){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
@@ -31,9 +31,9 @@ AMPLICON-PIPER is a comprehensive yet modular pipeline that is able to perform a
 ---
 
 {: .warning }
-> This website documents the features of the current release (v0.0.0) of Amplicon-Piper. See [the CHANGELOG]({% link CHANGELOG.md %}) for a list of releases, new features, and bug fixes.
+> This website documents the features of the current release (v0.0.0) of AMPLIPIPER. See [the CHANGELOG]({% link CHANGELOG.md %}) for a list of releases, new features, and bug fixes.
 
-**AMPLICON-PIPER** is a pipeline developed by the Naturhistorisches Museum Wien to tackle most of the challenges posed by amplicon sequencing, and its ultimate goal is to provide the user with a comprehensive tool that is able to automatically perform the following tasks in a single run:
+**AMPLIPIPER** is a pipeline developed by the Naturhistorisches Museum Wien to tackle most of the challenges posed by amplicon sequencing, and its ultimate goal is to provide the user with a comprehensive tool that is able to automatically perform the following tasks in a single run:
 
 * Quality filtering and size selection
 * Demultiplexing
@@ -91,7 +91,7 @@ See the repository [README][Pipeline README] for a more detailed quickstart.
 
 ### Contributors
 
-**AMPLICON-PIPER** is developed, distributed and maintained by Martin Kapun (NHM), Sonja Steindl (NHM) and Astra Bertelli (University of Pavia).
+**AMPLIPIPER** is developed, distributed and maintained by Martin Kapun (NHM), Sonja Steindl (NHM) and Astra Bertelli (University of Pavia).
 
 ### Acknowledgments
 
@@ -101,7 +101,7 @@ Other acknowledgements TBD
 
 ### License
 
-**AMPLICON-PIPER** is distributed by an [??? license](https://github.com/nhmvienna/HAPLOTYES/blob/main/LICENSE).
+**AMPLIPIPER** is distributed by an [??? license](https://github.com/nhmvienna/HAPLOTYES/blob/main/LICENSE).
 
 ### Contributing
 
