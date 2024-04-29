@@ -24,7 +24,7 @@ AMPLIPIPER is a comprehensive yet modular pipeline that is able to perform a wid
    <img src="https://img.shields.io/badge/Requires-Mamba_and_Conda-red" alt="Static Badge">
    <img src="https://img.shields.io/badge/Supported_platforms-linux/macOS-brown" alt="Static Badge">
    <div>
-        <a href="https://cat-bounce.com/"><img src="../../assets/images/amplicon-piper.gif" alt="Example chat" align="center"></a>
+        <a href="https://cat-bounce.com/"><img src="./assets/images/amplicon-piper.gif" alt="Example chat" align="center"></a>
    </div>
 </div>
 
