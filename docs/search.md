@@ -92,4 +92,4 @@ We won't discuss all the potential exceptions and problems that one could run in
 
 ## Didn't find what you are looking for?
 
-Check the [issues page on GitHub](https://github.com/nhmvienna/HAPLOTYPES/issues) and, if you can't find any similar issue, flag one yourself. We'll be on your back as soon as possible!
+Check the [issues page on GitHub](https://github.com/nhmvienna/AmpliPiper/issues) and, if you can't find any similar issue, flag one yourself. We'll be on your back as soon as possible!

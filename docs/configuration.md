@@ -30,8 +30,8 @@ If you do not meet these two basic requirements, please adjust to them before in
 After verifying these requirements, complete the setup by running:
 
 ```bash
-git clone https://github.com/nhmvienna/HAPLOTYPES.git
-cd HAPLOTYPES
+git clone https://github.com/nhmvienna/AmpliPiper.git
+cd AmpliPiper
 ```
 
 Now that you are in the pipeline's directory, run the following command to install it:
@@ -40,7 +40,7 @@ Now that you are in the pipeline's directory, run the following command to insta
 bash shell/setup.sh
 ```
 
-This will create several conda environments in a subdirectory named `envs`. The process may take a while (sometimes it can even last hours, depending on your machine setup) and there might be problems. Please check out [troubleshooting](./search.md) and, if you cannot find a solution or the problem persists, feel free to [flag an issue on GitHub](https://github.com/nhmvienna/HAPLOTYPES/issues).
+This will create several conda environments in a subdirectory named `envs`. The process may take a while (sometimes it can even last hours, depending on your machine setup) and there might be problems. Please check out [troubleshooting](./search.md) and, if you cannot find a solution or the problem persists, feel free to [flag an issue on GitHub](https://github.com/nhmvienna/AmpliPiper/issues).
 
 ## Dependencies
 

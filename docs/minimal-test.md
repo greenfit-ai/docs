@@ -23,9 +23,6 @@ Here you will find all the useful metadata about people and dependencies linked 
 * [Martin Kapun](https://github.com/capoony), NHM Wien
 * [Sonja Steindl](https://github.com/sonjastndl), NHM Wien
 * [Astra Bertelli](https://astrabert.vercel.app), University of Pavia
-* [Stefan Eichert](https://github.com/stefaneichert), NHM Wien
-
-Other people?? Order??
 
 ## Contributors
 
@@ -33,8 +30,9 @@ Other people?? Order??
 * [Sandra Kirchner](https://www.nhm-wien.ac.at/en/sandra_kirchner)
 * [Nikolaus Szucsich](https://www.nhm-wien.ac.at/en/nikolaus_szucsich)
 * [Elisabeth Haring](https://www.nhm-wien.ac.at/en/elisabeth_haring)
+* [Stefan Eichert](https://github.com/stefaneichert)
 
-Other people?? Order??
+If you feel like your contribution was important in building the project and we forgot to mention you, just contact us and we'll integrate your name in this page!
 
 ## References
 
@@ -80,4 +78,5 @@ Other people?? Order??
 
 When using AMPLIPIPER, please consider reporting the following citation: 
 
-**TBD**
+{: .warning }
+> NO CITATION AVAILABLE AT THE MOMENT.

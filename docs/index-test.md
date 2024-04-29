@@ -87,4 +87,4 @@ The following section provides some advice on how to set the parameters for the 
 * `-m` or `--minreads`: a minimum threshold of less than 100 reads can lead to a lack of output from the underlying consensus generation software.
 * `-b` or `--blast`: BLAST search takes a long time when implemented.
 
-If you are having a hard time with the pipeline's output, always try experimenting with the parameter settings. If the problems persist, check out [troubleshooting](./search.md) or [flag an issue on GitHub](https://github.com/nhmvienna/HAPLOTYPES/issues).
+If you are having a hard time with the pipeline's output, always try experimenting with the parameter settings. If the problems persist, check out [troubleshooting](./search.md) or [flag an issue on GitHub](https://github.com/nhmvienna/AmpliPiper/issues).

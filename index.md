@@ -13,7 +13,7 @@ AMPLIPIPER is a comprehensive yet modular pipeline that is able to perform a wid
 {: .fs-6 .fw-300 }
 
 [Get started now](#quickstart){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[View it on GitHub](https://github.com/nhmvienna/HAPLOTYPES){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[View it on GitHub](https://github.com/nhmvienna/AmpliPiper){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 ---
 
@@ -51,7 +51,7 @@ Browse the documentation to learn more about how to use this pipeline!
 
 Here you'll get a quick tour of the pipeline:
 
-* **Installation**: To install the pipeline, clone [the GitHub repository](https://github.com/nhmvienna/HAPLOTYPES), go inside of it and run:
+* **Installation**: To install the pipeline, clone [the GitHub repository](https://github.com/nhmvienna/AmpliPiper), go inside of it and run:
 
 ```bash
 bash shell/setup.sh
@@ -66,7 +66,7 @@ bash shell/pipeline_main.sh -h
 * **Your first usage**: Now that you had a rapid tour of the pipeline's usage, get ready for the first trial. You should collect the names and the paths of your fastq data in a csv file named `samples.csv` and the primers (forward and reverse, with their ids, the ploidy of the locus and the expected length of the sequence) in another csv file, named `primers.csv`. You can then run:
 
 ```bash
-bash /example_absolute_path/HAPLOTYPES/shell/pipeline_main.sh \
+bash /example_absolute_path/AmpliPiper/shell/pipeline_main.sh \
     -s /example_absolute_path/test/data/samples.csv \
     -p /example_absolute_path/test/data/primers.csv \
     -o /example_absolute_path/test/results/testresults \
@@ -97,11 +97,14 @@ See the repository [README][Pipeline README] for a more detailed quickstart.
 
 The present documentation is written with Just the Docs, which is &copy; 2017-{{ "now" | date: "%Y" }} Jekyll theme by [Patrick Marsceill](https://patrickmarsceill.com).
 
-Other acknowledgements TBD
+We wish to thank all the amazing people that supported the project and shared advice or opinions about it, as well as all the teams and people behind the software employed in our pipeline.
+
+{: .note }
+This project is being developed as part of [TETTRIs - Task 6.2, WP6](https://tettris.eu/).
 
 ### License
 
-**AMPLIPIPER** is distributed by an [??? license](https://github.com/nhmvienna/HAPLOTYES/blob/main/LICENSE).
+**AMPLIPIPER** is [an open source project](https://github.com/nhmvienna/HAPLOTYES/blob/main/LICENSE).
 
 ### Contributing
 
@@ -123,7 +126,7 @@ email, or any other method with the owners of this repository before making a ch
 [Just the Docs Template]: https://just-the-docs.github.io/just-the-docs-template/
 [Just the Docs]: https://just-the-docs.com
 [Just the Docs repo]: https://github.com/just-the-docs/just-the-docs
-[Pipeline README]: https://github.com/nhmvienna/HAPLOTYPES/blob/main/README.md
+[Pipeline README]: https://github.com/nhmvienna/AmpliPiper/blob/main/README.md
 [GitHub Pages]: https://pages.github.com/
 [Template README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
 [GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
