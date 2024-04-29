@@ -15,8 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: AMPLIPIPER
 description: A downstream pipeline for amplicon-sequencing
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://astrabert.github.io/AmpliPiper-docs" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "AmpliPiper-docs" # the subpath of your site, e.g. /blog
+url: "https://astrabert.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 repository: AstraBert/AmpliPiper-docs # for github-metadata
 
 permalink: pretty
