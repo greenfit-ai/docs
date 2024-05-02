@@ -57,7 +57,7 @@ There is no need for the sample names to match the basenames of the fastq files.
 
 To run the pipeline, use the following command:
 ```
-bash pipeline_main.sh -s <samples_csv> -p <primers_csv> -o <output_folder> [options]
+bash AmpliPiper.sh -s <samples_csv> -p <primers_csv> -o <output_folder> [options]
 ```
 **Required Arguments**
 

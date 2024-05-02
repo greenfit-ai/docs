@@ -60,13 +60,13 @@ bash shell/setup.sh
 * **Installation test**: To test that everything is working and get information on the options you can input the pipeline with, run:
 
 ```bash
-bash shell/pipeline_main.sh -h
+bash shell/AmpliPiper.sh -h
 ```
 
 * **Your first usage**: Now that you had a rapid tour of the pipeline's usage, get ready for the first trial. You should collect the names and the paths of your fastq data in a csv file named `samples.csv` and the primers (forward and reverse, with their ids, the ploidy of the locus and the expected length of the sequence) in another csv file, named `primers.csv`. You can then run:
 
 ```bash
-bash /example_absolute_path/AmpliPiper/shell/pipeline_main.sh \
+bash /example_absolute_path/AmpliPiper/shell/AmpliPiper.sh \
     -s /example_absolute_path/test/data/samples.csv \
     -p /example_absolute_path/test/data/primers.csv \
     -o /example_absolute_path/test/results/testresults \
