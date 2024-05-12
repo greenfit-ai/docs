@@ -42,14 +42,16 @@ Amplicon Sorter outputs are summarized into a csv file, which will be employed f
 Ploidy-based haplotype reconstruction is achieved with the help of the custom Python script ChooseConsensus.py, which tests the consistency of various ploidy assets within the reads (based on SNPs) and outputs the consensus sequences to be kept for downstream analysis, labeling them as haplotypes (with _1, _2, _3... as a series number in their header).
 
 ## Phylogenetic analysis
-Phylogenetic analysis begins with haplotypes alignment, accomplished by MAFFT.
+Phylogenetic analysis begins with haplotypes alignment, accomplished by MAFFT. Not only are haplotypes aligned, but their resulting alignments are merged by a custom python script into a concatenated dataset: this will serve for further phylogenetic analyses and, especially, for species delimitation.
 
 After the alignment, maximum-likelihood phylogenetic trees are inferred for each locus separately using IQtree (with 100 bootstrapping rounds). Once all the loci are concatenated, an overall tree is built by Astral.
 
 All the trees are plotted by custom R scripts, and their relative Robinson-Foulds distance is calculated to assess their similarity.
 
+There is also the possibility to enable IQtree partition model when performing the tree reconstruction on the concatenated alignments' dataset.
+
 ## Species Delimitation
-Species delimitation relies on ASAP, which identifies the best partitioning model for the haplotypes, delimiting putative species groups.
+Species delimitation relies on ASAP, which identifies the best partitioning model for the haplotypes and for the concatenated dataset, delimiting putative species groups.
 
 ## Species Identification
 Species identification is achieved through two API services:
