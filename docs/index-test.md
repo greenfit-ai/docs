@@ -76,6 +76,7 @@ bash AmpliPiper.sh -s <samples_csv> -p <primers_csv> -o <output_folder> [options
 * `-q` or `--quality`: Specify the minimum quality score for read filtering (default: 10).
 * `-r` or `--sizerange`: Define the allowed size buffer around the expected locus length (default: 100).
 * `-t` or `--threads`: Specify the number of threads to use for parallel processing (default: 10).
+* `-i` or `--partition`: Use partition model for iqtree with combined dataset (default: disabled)
 
 ## Best practices
 
