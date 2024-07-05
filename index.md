@@ -51,7 +51,7 @@ Browse the documentation to learn more about how to use this pipeline!
 
 Here you'll get a quick tour of the pipeline:
 
-* **Installation**: To install the pipeline, clone [the GitHub repository](https://github.com/nhmvienna/AmpliPiper), go inside of it and run:
+* **Installation**: To install the pipeline you should have mamba and conda up and running on your machine. Once you are all set, clone [the GitHub repository](https://github.com/nhmvienna/AmpliPiper), go inside of it and run:
 
 ```bash
 bash shell/setup.sh

@@ -37,6 +37,8 @@ sl_can,GGATGATGTCTCAAGCCCTTC,TTTTCACGAGCATACCTCAATG,2,780
 sl_6n_per,GATGCCTCAAGCCCTCCTA,AAGATTTCCACGAGCATACCTC,2,780
 ```
 
+> _⚠️BE CAREFUL!⚠️: If you are working with Cytochrome c oxidase subunit I, you should set the ID to **COX1**; if you are working with Internal transcribed spacer, you should set the ID to **ITS**;  If you are working with maturase K and/or ribulose 1,5-biphosphate carboxylase, you should set the ID to **MATK_RBCL**. This is needed for the BOLD species identification analysis to start!_
+
 There is no need to explicitly trim adapters from your fastq files, as the demultiplexing steps take into account their presence. However, make sure not to provide adapters+primers if you have already removed adapters.
 
 ## Samples
