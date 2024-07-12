@@ -65,8 +65,6 @@ envs/
 
 Here is the breakdown of the dependencies that are contained within these environemnts:
 
-Here is the markdown list of created conda environments with all the dependencies installed within them:
-
 #### 1. Nanofilt
 
 * Dependencies: `nanofilt`, `pigz`
