@@ -20,7 +20,7 @@ AMPLIPIPER is a comprehensive yet modular pipeline that is able to perform a wid
 <div align="center">
     <img src="https://img.shields.io/badge/Language-Bash-Green" alt="Static Badge">
    <img src="https://img.shields.io/badge/Production_status-Beta-green" alt="Static Badge">
-   <img src="https://img.shields.io/badge/Release-v0.0.0-purple" alt="Static Badge">
+   <img src="https://img.shields.io/badge/Release-v0.1.0_beta-purple" alt="Static Badge">
    <img src="https://img.shields.io/badge/Requires-Mamba_and_Conda-red" alt="Static Badge">
    <img src="https://img.shields.io/badge/Supported_platforms-linux/macOS-brown" alt="Static Badge">
    <div>
@@ -37,7 +37,7 @@ AMPLIPIPER is a comprehensive yet modular pipeline that is able to perform a wid
 ---
 
 {: .warning }
-> This website documents the features of the current release (v0.0.0) of AMPLIPIPER. See [the CHANGELOG]({% link CHANGELOG.md %}) for a list of releases, new features, and bug fixes.
+> This website documents the features of the current release (v0.1.0-beta) of AMPLIPIPER. See [the CHANGELOG]({% link CHANGELOG.md %}) for a list of releases, new features, and bug fixes.
 
 **AMPLIPIPER** is a pipeline developed by the Naturhistorisches Museum Wien to tackle most of the challenges posed by amplicon sequencing, and its ultimate goal is to provide the user with a comprehensive tool that is able to automatically perform the following tasks in a single run:
 
