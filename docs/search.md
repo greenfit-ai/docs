@@ -19,36 +19,6 @@ nav_order: 6
 
 Here is a showcase of known potential installation issues, with possible workarounds.
 
-### NanoCaller
-
-Issues with NanoCaller installation due to conflicts can be solved by installing the software manually, independently of `setup.sh`, by running the following commands:
-
-```bash
-## Create a NanoCaller environment
-mamba create -p./envs/nanocaller
-
-## Activate the environment
-mamba activate./envs/nanocaller
-
-## Install Python
-mamba install -c conda-forge -c bioconda -y python=3.10
-
-## Install Biopython
-mamba install -c conda-forge -y biopython
-
-## Install xopen v. 1.2.0
-python3 -m pip install xopen==1.2.0
-
-## Install whatshap
-mamba install -c conda-forge -c bioconda whatshap
-
-## Install NanoCaller
-mamba install -c conda-forge -c bioconda -y nanocaller
-
-## Test installation
-NanoCaller -h
-```
-
 ### R
 
 Unable to fix conflicts with libtiff and libdeflate, even though they are uninstalled locally and globally. Switched to manual apt installation (works for Ubuntu, not sure for other Linux distributions):

@@ -56,7 +56,6 @@ envs/
 ├── iqtree
 ├── mafft
 ├── minimap
-├── nanocaller
 ├── nanofilt
 ├── parallel
 ├── pigz
@@ -72,55 +71,51 @@ Here is the markdown list of created conda environments with all the dependencie
 
 * Dependencies: `nanofilt`, `pigz`
 
-#### 2. NanoCaller
-
-* Dependencies: `nanocaller`
-
-#### 3. Pigz
+#### 2. Pigz
 
 * Dependencies: `pigz`
 
-#### 4. Samtools
+#### 3. Samtools
 
 * Dependencies: `samtools=1.17`
 
-#### 5. Minimap
+#### 4. Minimap
 
 * Dependencies: `minimap2=2.26`, `samtools=1.17`
 
-#### 6. BCFtools
+#### 5. BCFtools
 
 * Dependencies: `bcftools`
 
-#### 7. Python Dependencies
+#### 6. Python Dependencies
 
 * Dependencies: `python=3.10`, `pandas`, `matplotlib`, `biopython`, `edlib`, `cairosvg`, `pymsaviz`, `ete3`, `pandas=2.1.1`, `beautifulsoup4`, `scipy`
 
-#### 8. MAFFT
+#### 7. MAFFT
 
 * Dependencies: `mafft=7.520`
 
-#### 9. IQtree
+#### 8. IQtree
 
 * Dependencies: `iqtree=2.2.5`
 
-#### 10. R
+#### 9. R
 
 * Dependencies: `r-base=4.1.3`, `bioconductor-ggtree`, `r-tidyverse`, `bioconductor-treeio`, `r-phytools`, `r-ape`, `r-treedist`, `r-reshape2`
 
-#### 11. Astral
+#### 10. Astral
 
 * Dependencies: `astral-tree=5.7.8`
 
-#### 12. ASAP
+#### 11. ASAP
 
 * Dependencies: `asap-v0.1.2-h14c3975_0`
 
-#### 13. GNU Parallel
+#### 12. GNU Parallel
 
 * Dependencies: `parallel`
 
-#### 14. BLAST
+#### 13. BLAST
 
 * Dependencies: `blast`
 
