@@ -24,8 +24,14 @@ AMPLIPIPER is a comprehensive yet modular pipeline that is able to perform a wid
    <img src="https://img.shields.io/badge/Requires-Mamba_and_Conda-red" alt="Static Badge">
    <img src="https://img.shields.io/badge/Supported_platforms-linux/macOS-brown" alt="Static Badge">
    <div>
-        <a href="https://cat-bounce.com/"><img src="./assets/images/amplicon-piper.gif" alt="Example chat" align="center"></a>
+        <a href="https://github.com/nhmvienna/AmpliPiper"><img src="./assets/images/AmpliPiper_logo.png" alt="AmpliPiper Logo" align="center"></a>
    </div>
+   <br>
+    <div style="display: flex;">
+        <img src="./assets/images/tettris.png" alt="TETTRIS project logo" style="width: 60%; height: auto; padding-right: 20px;">
+        <img src="./assets/images/nhm.svg.png" alt="NHM logo" style="width: 40%; height: auto; padding-left: 20px;">
+    </div>
+    <br>
 </div>
 
 ---
