@@ -1,12 +1,12 @@
 $color-scheme: dark;
 $body-background-color: $grey-dk-300;
-$body-heading-color: $grey-lt-000;
+$body-heading-color: #33cc33;
 $body-text-color: $grey-lt-300;
-$link-color: $blue-000;
-$nav-child-link-color: $grey-dk-000;
+$link-color: #33cc33;
+$nav-child-link-color: #33cc33;
 $sidebar-color: $grey-dk-300;
-$base-button-color: $grey-dk-250;
-$btn-primary-color: $blue-200;
+$base-button-color: #33cc33;
+$btn-primary-color: #33cc33;
 $code-background-color: #31343f; // OneDarkJekyll default for syntax-one-dark-vivid
 $code-linenumber-color: #dee2f7; // OneDarkJekyll .nf for syntax-one-dark-vivid
 $feedback-color: darken($sidebar-color, 3%);
