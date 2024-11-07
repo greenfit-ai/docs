@@ -8,7 +8,7 @@ nav_order: 6
 
 ## User Satisfaction Form
 
-Help us understanding about your experience on our app by filling out [this form](https://forms.gle/648mX6TS5RqdAsgNA)
+Help us understanding about your experience on our app by filling out [this form](https://forms.gle/tm32Xyt4MDXEdcuV7)
 
 ## Give us feedback!
 
