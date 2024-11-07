@@ -8,11 +8,11 @@ nav_order: 6
 
 ## User Satisfaction Form
 
-Help us understanding about your experience on our app by filling out [this form](https://cat-bounce.com)
+Help us understanding about your experience on our app by filling out [this form](https://forms.gle/648mX6TS5RqdAsgNA)
 
 ## Give us feedback!
 
-Any feedback, feature request or suggestion? Write them [here](#)!
+Any feedback, feature request or suggestion? Write them [here](https://forms.gle/xWwRofvqfNpfXsJv6)!
 
 ## Bugs, glitches or issues?
 
