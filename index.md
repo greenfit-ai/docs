@@ -12,7 +12,7 @@ permalink: /
 Find out about sustainability in your favorite sport clothing brands, in just one click!
 {: .fs-6 .fw-300 }
 
-[Get started now](https://greenfit-ai.streamlit.app){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Get started now](https://huggingface.co/spaces/greenfit-ai/greenfit-ai){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [View it on GitHub](https://github.com/greenfit-ai/greenfit-ai){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 ---
@@ -39,7 +39,7 @@ Browse the documentation to learn more about how to use it :)
 
 ## Quickstart
 
-We advise you have a look to our [website](https://greenfitai.org/) and then head over to [our application](https://greenfit-ai.vercel.app).
+We advise you have a look to our [website](https://greenfitai.org/) and then head over to [our demo application](https://huggingface.co/spaces/greenfit-ai/greenfit-ai).
 
 ----
 

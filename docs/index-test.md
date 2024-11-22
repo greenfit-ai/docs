@@ -6,7 +6,7 @@ nav_order: 3
 
 # User Guide
 {:.no_toc }
-[Our WebApp](https://greenfit-ai.vercel.app) is an easy to use search interface: learn how to authenticate, search and interpret your results!
+[Our Demo WebApp](https://huggingface.co/spaces/greenfit-ai/greenfit-ai) is an easy to use search interface: learn how to authenticate, search and interpret your results!
 {:.fs-6.fw-300 }
 
 <details open markdown="block">
