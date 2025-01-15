@@ -11,7 +11,8 @@ Get to know the people behind GreenFit AI!
 
 <h2 align="center">Alessandra Berta</h2>
 <h3 align="center">Co-Founder and Chief Media Officer</h3>
-
+<br>
+<br>
 <div align="center">
     <img src="../../assets/images/berta_img.jpg" alt="Alessandra Berta" width=200 heigth=200>
 </div>
@@ -26,7 +27,8 @@ With a background in **Classics**, she brings a **unique perspective** to our te
 
 <h2 align="center">Clelia Astra Bertelli</h2>
 <h3 align="center">Co-Founder and Chief Technology Officer</h3>
-
+<br>
+<br>
 <div align="center">
     <img src="../../assets/images/bertelli_img.jpg" alt="Clelia Astra Bertelli" width=200 heigth=200>
 </div>
@@ -43,7 +45,8 @@ Biological Sciences **student** by day and passionate **developer** by night, sh
 
 <h2 align="center">Anna Fenoglio</h2>
 <h3 align="center">Co-Founder and Chief Communications Officer</h3>
-
+<br>
+<br>
 <div align="center">
     <img src="../../assets/images/fenoglio_img.jpg" alt="Anna Fenoglio" width=200 heigth=200>
 </div>
@@ -59,7 +62,8 @@ Recognizing the potential of youth, she believes that the best way to address cr
 
 <h2 align="center">Francesco Tosini</h2>
 <h3 align="center">Co-Founder and Chief Brand Officer</h3>
-
+<br>
+<br>
 <div align="center">
     <img src="../../assets/images/tosini_img.jpg" alt="Francesco Tosini" width=200 heigth=200>
 </div>

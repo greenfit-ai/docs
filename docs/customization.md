@@ -16,8 +16,10 @@ nav_order: 4
 
 ## Workflow
 
+<br>
+
 <div align="center">
-    <img src="../../assets/images/greenfit-ai-workflow.png" alt="GreenFit AI workflow" width=500 heigth=250>
+    <img src="../../assets/images/greenfit-ai-workflow.png" alt="GreenFit AI workflow" width=800 heigth=400>
 </div>
 <br>
 

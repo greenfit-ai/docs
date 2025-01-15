@@ -20,8 +20,10 @@ nav_order: 3
 
 ## Use the application
 
+<br>
+<br>
 <div>
-  <a href="https://huggingface.co/spaces/greenfit-ai/greenfit-ai"><img src="../../assets/images/hugging_button.png" alt="Hugging Face Space" align="center" width=100 height=35></a>
+  <a href="https://huggingface.co/spaces/greenfit-ai/greenfit-ai"><img src="../../assets/images/hugging_button.png" alt="Hugging Face Space" align="center" width=150 height=60></a>
   <br>
   <br>
 </div>
