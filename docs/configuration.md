@@ -7,7 +7,7 @@ nav_order: 2
 # Mission
 {: .no_toc }
 
-GreenFit AI mission is to help you navigate the dangerous water of sustainability in sport fashio:  we committed to do so in a user-driven, data-centered and open-source way, because we believe that only in this way we can make the difference.
+GreenFit AI mission is to help you navigate the dangerous water of sustainability in sport fashion:  we committed to do so in a user-driven, data-centered and open-source way, because we believe that only in this way we can make the difference.
 {: .fs-6 .fw-300 }
 
 ## Table of contents

@@ -2,7 +2,7 @@
 layout: default
 title: Home
 nav_order: 1
-description: "AMPLIPIPER is a comprehensive yet modular pipeline that is able to perform a wide variety of downstream tasks on raw, basecalled, Oxford Nanopore long reads."
+description: "GreenFit AI: Find out about sustainability in your favorite sport clothing brands, in just one click!"
 permalink: /
 ---
 
