@@ -112,8 +112,9 @@
   @include btn-color($white, $blue-000);
 }
 
-.btn-yellow {
-  @include btn-color($grey-dk-300, rgba(255, 210, 30));
+.btn.btn-yellow {
+  color: black !important;
+  background-color: darkgoldenrod !important;
 }
 
 .btn-green {
