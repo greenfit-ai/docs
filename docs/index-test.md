@@ -18,9 +18,14 @@ nav_order: 3
 {:toc}
 </details>
 
+## Tutorial
+
+<div align="center">
+  <iframe src="https://drive.google.com/file/d/1rEAScoBVHMp-6k77K7kz9PC3S-1PXJsd/preview" width="640" height="480" allow="autoplay"></iframe>
+</div>
+
 ## Use the application
 
-<br>
 
 [Launch the App on HuggingFace Spaces🤗](https://huggingface.co/spaces/greenfit-ai/greenfit-ai){: .btn .btn-yellow .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
