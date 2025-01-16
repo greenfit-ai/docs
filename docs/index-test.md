@@ -20,6 +20,8 @@ nav_order: 3
 
 ## Use the application
 
+<br>
+
 [Launch the App on HuggingFace Spaces🤗](https://huggingface.co/spaces/greenfit-ai/greenfit-ai){: .btn .btn-yellow .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 Hi dear user! The following points will help you get started with your first chat with GreenFitAI:
