@@ -19,12 +19,8 @@ nav_order: 3
 </details>
 
 ## Use the application
-<br>
-<div>
-  <a href="https://huggingface.co/spaces/greenfit-ai/greenfit-ai"><img src="../../assets/images/hugging_button.png" alt="Hugging Face Space" align="center" width=250 height=100></a>
-  <br>
-  <br>
-</div>
+
+[Launch the App on HuggingFace Spaces🤗](https://huggingface.co/spaces/greenfit-ai/greenfit-ai){: .btn .btn-yellow .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 Hi dear user! The following points will help you get started with your first chat with GreenFitAI:
 
