@@ -113,7 +113,7 @@
 }
 
 .btn-yellow {
-  @include btn-color(black, $yellow-200);
+  @include btn-color($grey-dk-300, rgba(255, 210, 30));
 }
 
 .btn-green {
